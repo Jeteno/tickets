@@ -1,0 +1,69 @@
+[
+   {
+      "id": 1,
+      "company": "Победа",
+      "price": 5000,
+      "currency": "RUB",
+      "time": "08:00 - 10:00",
+      "duration": "2h",
+      "date": "2021-11-05",
+      "connectionAmount": 1,
+      "img": "./img/card/pobeda.svg"
+    },
+    {
+      "id": 2,
+      "company": "Red Wings",
+      "price": 7000,
+      "currency": "RUB",
+      "time": "12:00 - 14:00",
+      "duration": "2h",
+      "date": "2021-11-05",
+      "connectionAmount": null,
+      "img": "./img/card/red.svg"
+    },
+    {
+      "id": 3,
+      "company": "S7 Airlines",
+      "price": 10000,
+      "currency": "RUB",
+      "time": "16:00 - 18:00",
+      "duration": "2h",
+      "date": "2021-11-06",
+      "connectionAmount": 2,
+      "img": "./img/card/airlines.svg"
+    },
+    {
+      "id": 4,
+      "company": "Победа",
+      "price": 1000,
+      "currency": "rub",
+      "time": "12:00 - 14:00",
+      "duration": "2h",
+      "date": "2021-10-30",
+      "connectionamount": 1,
+      "img": "./img/card/pobeda.svg"
+    },
+    {
+      "id": 5,
+      "company": "Red Wings",
+      "price": 1500,
+      "currency": "rub",
+      "time": "15:00 - 17:30",
+      "duration": "2h 30m",
+      "date": "2021-11-01",
+      "connectionamount": null,
+      "img": "./img/card/red.svg"
+    },
+    {
+      "id": 6,
+      "company": "S7 Airlines",
+      "price": 2000,
+      "currency": "rub",
+      "time": "09:30 - 12:00",
+      "duration": "2h 30m",
+      "date": "2021-11-05",
+      "connectionamount": 3,
+      "img": "./img/card/airlines.svg"
+    }
+   
+]

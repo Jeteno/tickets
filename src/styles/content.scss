@@ -1,0 +1,150 @@
+.content__page {
+}
+.content__container {
+}
+.content__body {
+}
+.content__card {
+   display: grid;
+   grid-template-columns: 272px 727px;
+   gap: 50px;
+   justify-content: center;
+   grid-template-areas: 
+   'sidebar filtration'
+   'sidebar tikets'
+   'sidebar buttons';
+}
+.content__sidebar {
+   grid-area: sidebar;
+}
+.sidebar__card {
+   border-radius: 10px;
+   background: #E8EBF2;
+   padding: 19px 18px 49px 19px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 26px;
+}
+.sidebar__card-title {
+}
+.card__title {
+   color: #4E148C;
+   @include adaptiveFont(20, 20);   
+   font-weight: 700;
+}
+.sidebar_card-checkbox {
+   display: flex;
+   flex-direction: column;
+   gap: 19px;
+   width: max-content;
+}
+.checkbox {
+   display: flex;
+   gap: 19px;
+   align-items: center;
+   color: var(--colors-lavender, #858AE3);
+   @include adaptiveFont(16, 16);   
+   font-weight: 500;
+   &:hover {
+      color: #4E148C;
+   }
+}
+.content__filtration {
+   display: flex;
+   grid-area: filtration;
+}
+.filtration__btn {
+   flex: 1 1 auto;
+   border: 2px solid #4E148C;
+   background: #E8EBF2;
+   color: #4E148C;
+   font-size: 16px;
+   font-weight: 700;
+   padding: 18px 20px;
+   &:first-child {
+      border-radius: 10px 0px 0px 10px;
+   }
+   &:last-child {
+      border-radius: 0px 10px 10px 0px;
+   }
+   &:hover {
+      background: #4E148C;
+      color: #F7F9F7;
+   }
+}
+.content__tikets {
+   grid-area: tikets;
+}
+.tiket__body {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-row-gap: 25px;
+   // gap: 50px;
+   justify-content: center;
+   grid-template-areas: 
+   'price price logo'
+   'time duration transplants';
+   border-radius: 10px;
+   background: #E8EBF2;
+   padding: 27px 24px 25px 23px;
+}
+.tiket__price {
+   grid-area: price;
+}
+.tiket__price-text {
+   color: #4E148C;
+   @include adaptiveFont(32, 32);   
+   font-weight: 700;
+}
+.tiket__logo {
+   grid-area: logo;
+}
+.tiket__logo-img {
+}
+.tiket__details {
+   display: flex;
+   flex-direction: column;
+   gap: 9px;
+}
+.tiket__time {
+   grid-area: time;
+}
+.tiket__title {
+}
+.tiket__title-text {
+   color: #858AE3;
+   @include adaptiveFont(16, 16);   
+   font-weight: 500;
+}
+.tiket__subtitle {
+}
+.tiket__subtitle-text {
+   color: #4E148C;
+   @include adaptiveFont(16, 16);   
+   font-weight: 500;
+}
+.tiket__duration {
+   grid-area: duration;
+}
+.tiket__transplants {
+   grid-area: transplants;
+}
+.content__button {
+   grid-area: buttons;
+}
+.content__btn {
+   width: 100%;
+   padding: 16px 0 17px;
+   border-radius: 10px;
+   background: var(--colors-purple, #4E148C);
+   color: #F7F9F7;
+   @include adaptiveFont(24, 24);   
+   font-weight: 700;
+   line-height: normal;
+   &:hover {
+      background: #4e148c99;
+      color: #F7F9F7;
+   }
+}
