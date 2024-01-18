@@ -3,8 +3,7 @@ import Filtration from './filtration'
 import Tikets from './tikets'
 import Button from './buttons'
 
-const Content = (props) => {
-   const {tikets, setTikets} = props;
+const Content = () => {
 
    return (
       <section className="content__page page">
@@ -13,7 +12,7 @@ const Content = (props) => {
                <div className="content__card">
                   <Sidebar/>
                   <Filtration/>
-                  <Tikets tikets={tikets} setTikets={setTikets}/>
+                  <Tikets/>
                   <Button/>
                </div>
             </div>

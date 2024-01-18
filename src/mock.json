@@ -4,10 +4,10 @@
       "company": "Победа",
       "price": 5000,
       "currency": "RUB",
-      "time": "08:00 - 10:00",
-      "duration": "2h",
+      "time": "08:00 - 11:00",
+      "duration": "3",
       "date": "2021-11-05",
-      "connectionAmount": 1,
+      "connectionAmount": "1 пересадка",
       "img": "./img/card/pobeda.svg"
     },
     {
@@ -16,9 +16,9 @@
       "price": 7000,
       "currency": "RUB",
       "time": "12:00 - 14:00",
-      "duration": "2h",
+      "duration": "2",
       "date": "2021-11-05",
-      "connectionAmount": null,
+      "connectionAmount": "Без пересадок",
       "img": "./img/card/red.svg"
     },
     {
@@ -26,10 +26,10 @@
       "company": "S7 Airlines",
       "price": 10000,
       "currency": "RUB",
-      "time": "16:00 - 18:00",
-      "duration": "2h",
+      "time": "16:00 - 20:00",
+      "duration": "4",
       "date": "2021-11-06",
-      "connectionAmount": 2,
+      "connectionAmount": "2 пересадки",
       "img": "./img/card/airlines.svg"
     },
     {
@@ -38,9 +38,9 @@
       "price": 1000,
       "currency": "rub",
       "time": "12:00 - 14:00",
-      "duration": "2h",
+      "duration": "2",
       "date": "2021-10-30",
-      "connectionamount": 1,
+      "connectionAmount": "1 пересадка",
       "img": "./img/card/pobeda.svg"
     },
     {
@@ -49,9 +49,9 @@
       "price": 1500,
       "currency": "rub",
       "time": "15:00 - 17:30",
-      "duration": "2h 30m",
+      "duration": "2 30",
       "date": "2021-11-01",
-      "connectionamount": null,
+      "connectionAmount": "Без пересадок",
       "img": "./img/card/red.svg"
     },
     {
@@ -60,10 +60,9 @@
       "price": 2000,
       "currency": "rub",
       "time": "09:30 - 12:00",
-      "duration": "2h 30m",
+      "duration": "2 30",
       "date": "2021-11-05",
-      "connectionamount": 3,
+      "connectionAmount": "3 пересадки",
       "img": "./img/card/airlines.svg"
     }
-   
 ]

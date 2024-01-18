@@ -1,11 +1,10 @@
 import Content from '../local/content';
 
-const  Body = (props) => {
-   const {tikets, setTikets} = props
+const  Body = () => {
 
    return (
       <main className="main">
-         <Content tikets={tikets} setTikets={setTikets}/>
+         <Content/>
       </main>
    )
 }
