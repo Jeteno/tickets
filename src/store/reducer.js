@@ -47,7 +47,7 @@ const reducer = (state = initialState, action) => {
             const optimalTicketsTwo = b.duration / b.price;
             return optimalTicketsOne - optimalTicketsTwo;
           }
-         const sortedTickets = state.tickets.sort(compareTickets);
+          const sortedTickets = state.tickets.sort(compareTickets);
          return {
             ...state,
             sortedTicketOptimal: sortedTickets
